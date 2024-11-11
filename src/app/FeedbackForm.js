@@ -2,11 +2,12 @@ import { useState } from 'react';
 
 export default function FeedbackForm() {
   const [isSent, setIsSent] = useState(false);
+    // eslint-disable-next-line
+  const [message, setMessage] = useState('');
   if (isSent) {
     return <h1>¡Gracias!</h1>;
   } else {
-    // eslint-disable-next-line
-    const [message, setMessage] = useState('');
+  
     return (
       <form onSubmit={e => {
         e.preventDefault();

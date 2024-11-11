@@ -2,7 +2,7 @@
 
 import Form from "./Form";
 import Gallery from "./Gallery";
-import FeedbackForm from "./FeedBackForm";
+import FeedbackForm from "./FeedbackForm";
 import FeedbackForm2 from "./FeedbackForm2"
 
 export default function Home() {
